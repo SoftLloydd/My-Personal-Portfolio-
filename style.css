@@ -65,21 +65,19 @@ body {
 }
 
 .logo {
-    font-size: 3rem;
-    color: var(--text-color);
-    font-weight: 800;
-    cursor: pointer;
-    transition: transform var(--transition-speed) ease-in-out;
+  text-decoration: none;
+  color: white; /* or your highlight color */
+}
+
+.logo span {
+  color: rgb(255, 0, 183); /* your highlight */
+  text-decoration: none;
 }
 
 .logo:hover {
     transform: scale(1.1);
 }
 
-.logo span {
-    color: var(--main-color);
-    text-shadow: 0 0 25px var(--main-color);
-}
 
 /* MENU TOGGLE BUTTON */
 .menu-toggle {
